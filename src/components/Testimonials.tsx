@@ -50,8 +50,8 @@ export default function Testimonials() {
 						<motion.div
 							key={index}
 							className='bg-white/10 backdrop-blur-sm rounded-lg p-6'
-							initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-							whileInView={{ opacity: 1, x: 0 }}
+							initial={{ opacity: 0, scale: 0.8, y: 30 }}
+							whileInView={{ opacity: 1, scale: 1, y: 0 }}
 							transition={{
 								duration: 0.6,
 								delay: index * 0.2,

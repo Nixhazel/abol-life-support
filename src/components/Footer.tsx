@@ -62,8 +62,8 @@ export default function Footer() {
 					{/* Logo and Description */}
 					<motion.div
 						className='md:col-span-1'
-						initial={{ opacity: 0, x: -50 }}
-						whileInView={{ opacity: 1, x: 0 }}
+						initial={{ opacity: 0, y: 30 }}
+						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.2, duration: 0.6 }}
 						viewport={{ once: true }}>
 						<div className='flex items-center mb-4'>
@@ -123,8 +123,8 @@ export default function Footer() {
 					{/* Contact Info */}
 					<motion.div
 						className='md:col-span-1'
-						initial={{ opacity: 0, x: 50 }}
-						whileInView={{ opacity: 1, x: 0 }}
+						initial={{ opacity: 0, y: 30 }}
+						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.6, duration: 0.6 }}
 						viewport={{ once: true }}>
 						<h4 className='text-lg font-semibold mb-4'>Contact Info</h4>
