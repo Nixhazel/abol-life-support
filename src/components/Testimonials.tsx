@@ -83,7 +83,7 @@ export default function Testimonials() {
 								))}
 							</motion.div>
 							<blockquote className='text-lg mb-4 leading-relaxed'>
-								"{testimonial.quote}"
+								&quot;{testimonial.quote}&quot;
 							</blockquote>
 							<div>
 								<div className='font-semibold text-yellow-300'>

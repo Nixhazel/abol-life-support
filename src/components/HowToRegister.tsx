@@ -33,7 +33,7 @@ export default function HowToRegister() {
 					transition={{ duration: 0.6 }}
 					viewport={{ once: true }}>
 					<h2 className='text-3xl md:text-4xl font-bold text-[#0c67b0] mb-4'>
-						Got a Class ID? You're 30 Seconds Away from Registering
+						Got a Class ID? You&apos;re 30 Seconds Away from Registering
 					</h2>
 					<p className='text-lg text-gray-600 mb-12'>
 						Quick and easy registration process for students with class IDs

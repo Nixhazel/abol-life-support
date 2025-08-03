@@ -1,4 +1,5 @@
 import Navigation from '@/components/Navigation';
+import Link from 'next/link';
 
 export default function Register() {
 	return (
@@ -132,11 +133,11 @@ export default function Register() {
 						</form>
 
 						<div className='mt-6 text-center'>
-							<a
+							<Link
 								href='/'
 								className='text-[#0c67b0] hover:text-blue-700 font-medium'>
 								← Back to Home
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
