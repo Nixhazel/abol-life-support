@@ -51,13 +51,23 @@ export default function Hero() {
 				</motion.h1>
 
 				<motion.p
-					className='text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed'
+					className='text-lg md:text-xl mb-4 max-w-2xl mx-auto leading-relaxed'
 					initial={{ opacity: 0, y: 30 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.6, delay: 0.6, ease: 'easeOut' }}>
 					AHA-Certified Life Support Training for Healthcare Heroes, First
 					Responders, and Divers.
 				</motion.p>
+
+				<motion.div
+					className='mb-8'
+					initial={{ opacity: 0, y: 20 }}
+					animate={{ opacity: 1, y: 0 }}
+					transition={{ duration: 0.6, delay: 0.8, ease: 'easeOut' }}>
+					<p className='text-yellow-300 font-medium text-xl md:text-2xl italic'>
+						"We make learning to save lives easy and affordable"
+					</p>
+				</motion.div>
 
 				<motion.div
 					initial={{ opacity: 0, scale: 0.8 }}

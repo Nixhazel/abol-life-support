@@ -130,8 +130,13 @@ export default function Footer() {
 						<h4 className='text-lg font-semibold mb-4'>Contact Info</h4>
 						<div className='space-y-2 text-gray-300'>
 							<p>📧 info@abollifesupport.com</p>
-							<p>📞 1-800-LIFE-SUP</p>
-							<p>📍 Available Nationwide</p>
+							<p>📞 +234 807 555 2050</p>
+							<p>📞 +234 803 317 2422</p>
+							<p>📍 35 Airport Rd, beside Gemstone Supermarket, Warri</p>
+							<p>
+								📍 Suite 302 Ijeoma Plaza, Rumukrusi Round about, Rumukrusi,
+								Port-Harcourt.
+							</p>
 						</div>
 					</motion.div>
 				</motion.div>
