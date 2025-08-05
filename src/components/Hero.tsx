@@ -65,7 +65,7 @@ export default function Hero() {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.6, delay: 0.8, ease: 'easeOut' }}>
 					<p className='text-yellow-300 font-medium text-xl md:text-2xl italic'>
-						"We make learning to save lives easy and affordable"
+						&quot;We make learning to save lives easy and affordable&quot;
 					</p>
 				</motion.div>
 
